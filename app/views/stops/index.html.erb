@@ -1,0 +1,13 @@
+<% content_for(:title, "All Stops | Bus Timetable") %>
+
+<h1> Stops </h1>
+<hr>
+<ul>
+<% @stops.each do |stop| %>
+  <li><a href="/stops/<%= stop.id %>"><%= "Station: "+ stop.station.name + " Line: " + stop.line.name %></a></li>
+<% end %>
+</ul>
+
+<%=link_to "New Station", new_station_path, :class => "tiny round button" %>
+<%=link_to "New Line", new_line_path, :class => "tiny round success button" %>
+<%=link_to "New Stop", new_stop_path, :class => "tiny round alert button" %>

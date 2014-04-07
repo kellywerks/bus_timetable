@@ -1,0 +1,8 @@
+<% content_for(:title, "Add Stations | Bus Timetable") %>
+
+<h1> New Stations </h1>
+<hr>
+
+<%= render("layouts/form", :object => @station) %>
+
+<%= link_to "Back", stations_path, :class=> "tiny button" %>

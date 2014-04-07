@@ -1,0 +1,8 @@
+<% content_for(:title, "Stop Listing | Bus Timetable") %>
+
+<h1>Stop Listing</h1>
+
+<p><%= link_to "Edit", edit_stop_path(@stop), :class => "tiny button" %></p>
+<p><%= link_to "Delete", stop_path, :class => "tiny button", :confirm => "Are you serious?", :method => "delete" %>
+
+<p><%= link_to "Back", stations_path, :class => "tiny button" %></p>
