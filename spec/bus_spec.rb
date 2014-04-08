@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe Line do
+describe Bus do
   it {should have_many :stations}
   it {should have_many :stops}
-  it {should have_many :buses}
+  it {should belong_to :line}
 end

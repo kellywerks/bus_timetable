@@ -2,5 +2,6 @@ require 'spec_helper'
 
 describe Station do
   it {should have_many :lines}
+  it {should have_many :buses}
   it {should have_many :stops}
 end

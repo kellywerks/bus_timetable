@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'foundation-rails'
+gem "d3js-rails"
 
 group :development do
   gem 'better_errors'

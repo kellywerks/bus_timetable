@@ -1,0 +1,18 @@
+<% content_for(:title, "Main Page | Bus Timetable") %>
+
+<h1> Bus Timetable </h1>
+<hr>
+
+<h3>Stations</h3>
+<ul>
+<% @stations.each do |station| %>
+  <li><a href="/stations/<%= station.id %>"><%= station.name %></a></li>
+<% end %>
+</ul>
+
+<h3>Lines</h3>
+<ul>
+<% @lines.each do |line| %>
+  <li><a href="/lines/<%= line.id %>"><%= line.name %></a></li>
+<% end %>
+</ul>

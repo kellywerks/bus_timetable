@@ -44,7 +44,7 @@ def index
 
   private
   def stop_params
-    params.require(:stop).permit(:station_id, :line_id)
+    params.require(:stop).permit(:station_id, :bus_id)
   end
 
 end

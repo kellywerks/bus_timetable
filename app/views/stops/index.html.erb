@@ -4,7 +4,7 @@
 <hr>
 <ul>
 <% @stops.each do |stop| %>
-  <li><a href="/stops/<%= stop.id %>"><%= "Station: "+ stop.station.name + " Line: " + stop.line.name %></a></li>
+  <li><a href="/stops/<%= stop.id %>"><%= "Station: "+ stop.station.name + "   Line: " + stop.bus.line.name %></a></li>
 <% end %>
 </ul>
 

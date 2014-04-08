@@ -1,0 +1,20 @@
+<% content_for(:title, "#{@bus.name} | Bus Timetable") %>
+
+<h1><%= @bus.name %></h1>
+
+<h3>Here is the bus line: </h3>
+
+<h4><%= @bus.line.name %></h4>
+
+<h3>Here are the stations for the <%= @bus.name %> line:</h3>
+<ul>
+<% @bus.stations.each do |station| %>
+  <li><%= link_to "#{station.name}", station_path(station)%></li>
+  <% end %>
+</ul>
+
+
+<p><%= link_to "Edit", edit_bus_path, :class => "tiny button" %></p>
+<p><%= link_to "Delete", bus_path, :class => "tiny button", :confirm => "Are you serious?", :method => "delete" %>
+
+<p><%= link_to "Back", publics_path, :class => "tiny button" %></p>
