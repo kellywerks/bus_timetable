@@ -1,15 +1,15 @@
-==Bus Timetable
-#Authors:  Kelly Becker and Andrew Hallberg
-#Epicodus Assignment
-#Used:  Ruby, Rails, Foundation
+=Bus Timetable
+== Epicodus Assignment
+# Authors:  Kelly Becker and Andrew Hallberg
+# Used:  Ruby, Rails, PostgreSQL, Foundation
 
 #User Stories:
 
-#*DONE* As a bus system operator, I want to add bus stations, so that I can show where all of the buses will go.
-#*DONE* As a bus system operator, I want to add bus lines, so that I can track which lines go to which stations.
-#*DONE* As a bus rider, I want to view a bus line, so that I can see the stations where it stops.
-#*DONE* As a bus rider, I want to view a bus station, so that I can see which buses come to it.
-#*DONE* As a bus system operator, I want to add buses to a line, so that I can assign each physical bus to a particular line.
+# - *DONE* As a bus system operator, I want to add bus stations, so that I can show where all of the buses will go.
+# - *DONE* As a bus system operator, I want to add bus lines, so that I can track which lines go to which stations.
+# - *DONE* As a bus rider, I want to view a bus line, so that I can see the stations where it stops.
+# - *DONE* As a bus rider, I want to view a bus station, so that I can see which buses come to it.
+# - *DONE* As a bus system operator, I want to add buses to a line, so that I can assign each physical bus to a particular line.
 
 #Future Considerations:
 #As a bus systems operator, I want to note what time a bus is scheduled to arrive at each stop, so that I can tell my drivers when they should be where.
